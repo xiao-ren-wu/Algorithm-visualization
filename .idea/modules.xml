@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algo-view-all/algo-view-all.iml" filepath="$PROJECT_DIR$/algo-view-all/algo-view-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-view-all/algo-view-framework/algo-view-framework.iml" filepath="$PROJECT_DIR$/algo-view-all/algo-view-framework/algo-view-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-view-all/algo-view-proba/algo-view-proba.iml" filepath="$PROJECT_DIR$/algo-view-all/algo-view-proba/algo-view-proba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-view-all/algo-view-study/algo-view-study.iml" filepath="$PROJECT_DIR$/algo-view-all/algo-view-study/algo-view-study.iml" />
+    </modules>
+  </component>
+</project>

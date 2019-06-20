@@ -9,6 +9,7 @@ import org.ywb.views.AlgoVisualizer;
  */
 public class Main {
     public static void main(String[] args) {
+		//
         new AlgoVisualizer(800, 800, 10, 50).run();
 
     }

@@ -13,8 +13,8 @@ import java.awt.*;
 public interface Consumer<T> {
     /**
      * 封装绘画逻辑
-     * @param g 画笔
+     * @param g2d 画笔
      * @param t 数据
      */
-    void accept(Graphics2D g, T t);
+    void accept(Graphics2D g2d, T t);
 }

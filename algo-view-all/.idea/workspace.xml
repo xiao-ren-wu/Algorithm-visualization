@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb70ddef-e4e5-4ad5-9df4-9f01301d60d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/algo-view-sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/HeapSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/InsertSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/MergeSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/QuickSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/SelectionSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/SortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/insert/InsertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/insert/SelectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/MergeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/MergeSortView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortRandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortRandView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeWaysView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWaysView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-all.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-all.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-framework/algo-view-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-framework/algo-view-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-proba/algo-view-proba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-proba/algo-view-proba.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-proba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-proba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-study/algo-view-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-study/algo-view-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-view-study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-view-study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/algo-view-study/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/algo-view-framework/target/" />
+    <ignored path="$PROJECT_DIR$/algo-view-proba/target/" />
+    <ignored path="$PROJECT_DIR$/algo-view-sort/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="161" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/QuickSortData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+              <folding>
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/HeapSortData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/views/AlgoFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/consumer/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeWaysView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="45" column="64" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWaysView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/algo-view-study/pom.xml" />
+        <option value="$PROJECT_DIR$/algo-view-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/algo-view-proba/pom.xml" />
+        <option value="$PROJECT_DIR$/algo-view-sort/pom.xml" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectVIew.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/SelectionSortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/InsertSortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/insert/SelectView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/insert/InsertController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/mergeSortView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/MergeSortView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/SortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/MergeSortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/MergeController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/QucikSortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quickSort/easy/QuickSortView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quickSort/easy/QuickSortController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortRandView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortRandController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWaysView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWayController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/QuickSortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortTwoWaysView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeWaysView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeController.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/HeapSortData.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapSort/HeapSortController.java" />
+        <option value="$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortView.java" />
+        <option value="$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ywb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ywb" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ywb" type="462c0819:PsiDirectoryNode" />
+              <item name="quicksort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ywb" type="462c0819:PsiDirectoryNode" />
+              <item name="quicksort" type="462c0819:PsiDirectoryNode" />
+              <item name="heapsort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo-view-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo-view-all" type="462c0819:PsiDirectoryNode" />
+              <item name="algo-view-sort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ywb" type="462c0819:PsiDirectoryNode" />
+              <item name="quicksort" type="462c0819:PsiDirectoryNode" />
+              <item name="twoway" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ywb.quicksort.threeways" />
+      <recent name="org.ywb.quicksort.rand" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HeapSortView">
+    <configuration name="HeapSortView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ywb.quicksort.heapsort.HeapSortView" />
+      <module name="algo-view-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ywb.quicksort.heapsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortRandView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ywb.quicksort.rand.QuickSortRandView" />
+      <module name="algo-view-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ywb.quicksort.rand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortThreeWaysView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ywb.quicksort.threeways.QuickSortThreeWaysView" />
+      <module name="algo-view-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ywb.quicksort.threeways.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTwoWaysView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ywb.quicksort.twoway.QuickSortTwoWaysView" />
+      <module name="algo-view-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ywb.quicksort.twoway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ywb.quicksort.easy.QuickSortView" />
+      <module name="algo-view-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ywb.quicksort.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HeapSortView" />
+        <item itemvalue="Application.QuickSortThreeWaysView" />
+        <item itemvalue="Application.QuickSortTwoWaysView" />
+        <item itemvalue="Application.QuickSortRandView" />
+        <item itemvalue="Application.QuickSortView" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb70ddef-e4e5-4ad5-9df4-9f01301d60d0" name="Default Changelist" comment="" />
+      <created>1560647329470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560647329470</updated>
+      <workItem from="1560647332899" duration="16360000" />
+      <workItem from="1560996343414" duration="289000" />
+      <workItem from="1560997517979" duration="13144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29793000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.389738" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.2777778" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.2519084" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algo_view_all$QuickSortThreeWaysView.ic" NAME="QuickSortThreeWaysView Coverage Results" MODIFIED="1561015171187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.ywb.quicksort.threeways.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/App.java" />
+    <entry file="file://$PROJECT_DIR$/algo-view-study/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/algo-view-sort.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-proba/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-framework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-proba/src/main/java/org/ywb/assign/AssignMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/InsertSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/insert/InsertController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/select/SelectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/MergeSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/insert/SelectView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/MergeSortView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/merge/MergeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/SelectionSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/SortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortRandView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/rand/QuickSortRandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="45" column="21" lean-forward="true" selection-start-line="44" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/controller/BaseAlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+          <folding>
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2321#2322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/twoway/QuickSortTwoWaysView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/easy/QuickSortController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeWaysView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="45" column="64" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/QuickSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/threeways/QuickSortThreeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/data/HeapSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-framework/src/main/java/org/ywb/views/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo-view-sort/src/main/java/org/ywb/quicksort/heapsort/HeapSortController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

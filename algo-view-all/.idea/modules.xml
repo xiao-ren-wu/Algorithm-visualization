@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algo-view-all.iml" filepath="$PROJECT_DIR$/algo-view-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/algo-view-framework/algo-view-framework.iml" filepath="$PROJECT_DIR$/algo-view-framework/algo-view-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo-view-maze/algo-view-maze.iml" filepath="$PROJECT_DIR$/algo-view-maze/algo-view-maze.iml" />
       <module fileurl="file://$PROJECT_DIR$/algo-view-proba/algo-view-proba.iml" filepath="$PROJECT_DIR$/algo-view-proba/algo-view-proba.iml" />
       <module fileurl="file://$PROJECT_DIR$/algo-view-sort/algo-view-sort.iml" filepath="$PROJECT_DIR$/algo-view-sort/algo-view-sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/algo-view-study/algo-view-study.iml" filepath="$PROJECT_DIR$/algo-view-study/algo-view-study.iml" />

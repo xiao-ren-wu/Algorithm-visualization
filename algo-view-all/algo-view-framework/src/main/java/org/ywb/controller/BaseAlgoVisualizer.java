@@ -41,7 +41,7 @@ public abstract class BaseAlgoVisualizer<T> {
 
     /**
      * 程序暂停时间（单位：毫秒），默认为50毫秒
-     * 【注意】只有更细数据处于死循环执行状态才生效
+     * 【注意】只有更新数据处于死循环执行状态才生效
      */
     private int pause = 50;
 
@@ -87,11 +87,13 @@ public abstract class BaseAlgoVisualizer<T> {
 
     /**
      * 更新数据
+     * @param t 更新的数据
      */
     public abstract void update(T t);
 
     /**
      * 初始化数据
+     * @return t 返回初始化的数据
      */
     public abstract T initData();
 

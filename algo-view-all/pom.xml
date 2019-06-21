@@ -12,6 +12,7 @@
     <module>algo-view-study</module>
     <module>algo-view-proba</module>
     <module>algo-view-sort</module>
+      <module>algo-view-maze</module>
   </modules>
   <packaging>pom</packaging>
 

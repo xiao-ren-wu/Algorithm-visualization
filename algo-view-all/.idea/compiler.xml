@@ -6,17 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algo-view-sort" />
-        <module name="algo-view-maze" />
-        <module name="algo-view-framework" />
         <module name="algo-view-proba" />
+        <module name="algo-view-sort" />
+        <module name="algo-view-framework" />
+        <module name="algo-view-maze" />
         <module name="algo-view-study" />
+        <module name="algo-view-createmaze" />
+        <module name="algo-view-minesweeper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algo-view-all" target="1.5" />
+      <module name="algo-view-createmaze" target="1.7" />
       <module name="algo-view-framework" target="1.8" />
       <module name="algo-view-maze" target="1.8" />
+      <module name="algo-view-minesweeper" target="1.8" />
       <module name="algo-view-proba" target="1.8" />
       <module name="algo-view-sort" target="1.8" />
       <module name="algo-view-study" target="1.8" />

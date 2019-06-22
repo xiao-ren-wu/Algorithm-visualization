@@ -109,6 +109,13 @@ public class AlgoVisHelper {
         }
     }
 
+    /**
+     * 帖图片
+     * @param g 画笔
+     * @param x 左上角x坐标
+     * @param y 左上角y坐标
+     * @param imageURL 图片地址
+     */
     public static void putImage(Graphics2D g, int x, int y, String imageURL){
 
         ImageIcon icon = new ImageIcon(imageURL);
@@ -136,4 +143,5 @@ public class AlgoVisHelper {
         int h = metrics.getDescent();
         g.drawString(text, centerx - w/2, centery + h);
     }
+
 }

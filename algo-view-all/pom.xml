@@ -13,6 +13,8 @@
     <module>algo-view-proba</module>
     <module>algo-view-sort</module>
       <module>algo-view-maze</module>
+      <module>algo-view-createmaze</module>
+      <module>algo-view-minesweeper</module>
   </modules>
   <packaging>pom</packaging>
 

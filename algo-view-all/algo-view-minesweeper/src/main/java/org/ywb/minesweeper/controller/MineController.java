@@ -43,7 +43,20 @@ public class MineController extends BaseAlgoVisualizer<MineSweeperData> {
     private void setData(boolean isLeftClicked,int x,int y){
         if(data.inArea(x,y)){
             if(isLeftClicked){
-                data.open[x][y] = true;
+                if(data.isMine(x,y)){
+                    //游戏结束
+                    for(int i = 0;i<n;i++){
+                        for (int j = 0;j<m;j++){
+                            if(data.isMine(i,j)){
+                                data.open[i][j] = true;
+                            }
+                        }
+                    }
+                }else{
+                    //没有点到雷，将周围的地方扩散开
+
+                    data.light(x,y);
+                }
             }else {
                 data.flags[x][y] = !data.flags[x][y];
             }

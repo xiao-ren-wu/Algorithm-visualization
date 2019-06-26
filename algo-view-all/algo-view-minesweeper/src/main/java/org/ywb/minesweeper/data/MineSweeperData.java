@@ -144,4 +144,27 @@ public class MineSweeperData {
             }
         }
     }
+
+    /**
+     * 点亮其他没有雷的部分
+     * @param x
+     * @param y
+     */
+    public void light(int x,int y){
+        if(!inArea(x,y)){
+            throw new IllegalArgumentException("非法");
+        }
+        open[x][y] = true;
+        if(numbers[x][y]>0){
+            return;
+        }
+        for(int i = x-1;i<=x+1;i++){
+            for(int j = y-1;j<=y+1;j++){
+                if(inArea(i,j)&&!open[i][j]&&!mines[i][j]){
+                    light(i,j);
+                }
+            }
+        }
+    }
+
 }

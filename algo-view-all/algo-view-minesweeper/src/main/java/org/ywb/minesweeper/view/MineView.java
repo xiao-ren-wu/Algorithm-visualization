@@ -41,7 +41,7 @@ public class MineView {
                 }
             }
         });
-        MineController mineController = new MineController(mineSweeperFrame, 20, 20, 20);
+        MineController mineController = new MineController(mineSweeperFrame, 20, 20, 50);
         mineController.setAlways(false);
     }
 }
